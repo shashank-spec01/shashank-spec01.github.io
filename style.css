@@ -3,28 +3,64 @@ body {
     padding: 15px;
     font-size: 16px;
     line-height: 1.5;
-    color: #111;
-    background: rgb(255, 255, 255);
-    font-family:  Courier;
+    color: rgb(17, 17, 17);
+    background:white ;
+    font-family:  courier;
     
 }
 #wrap {
-    max-width: 1000px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
+    /* text-align: justify; */
+}
+
+.bio{
+    text-align: center;
+    letter-spacing: 5px;
+    border: black;
+    border-style:double;
+    padding: 15px;
 }
 h1 {
     margin: 0px;
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
 }
-#links a {
-    margin-right: 5px;
+.links{
+    margin: 0px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color:white;
+    
+}
+.links a {
+    margin: 0px;
+    margin-right: 20px;
+    text-align: center;
+    color:white;
+
+}
+
+#demail{
+    text-align: center;
+    align-items: center;
 }
 ul {
     padding-left: 20px;
 }
+h2{
+    /* background: black;
+    color: white; */
+    text-align: center;
+    
+}
 .project {
     margin-top: 10px;
+    
 }
 .pub {
     margin-top: 10px;
