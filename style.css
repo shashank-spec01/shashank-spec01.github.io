@@ -4,15 +4,26 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: rgb(17, 17, 17);
-    background:white ;
+    background:#ffffff  ;
     font-family:  courier;
     
+   
+
+    
+    
+
+    
+    
 }
+    ::selection {
+    background: rgba(255, 255, 0, 0.829);
+  }
 #wrap {
-    max-width: 900px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    /* text-align: justify; */
+  
+
 }
 
 .bio{
@@ -20,21 +31,23 @@ body {
     letter-spacing: 5px;
     border: black;
     border-style:double;
-    padding: 15px;
+    padding: 1rem;
 }
 h1 {
     margin: 0px;
     color: black;
     text-align: center;
     letter-spacing: 5px;
+    font-size: 30px;
 }
 .links{
     margin: 0px;
-    width: auto;
+    width: auto ;
     text-align: center;
     align-items: center;
     background: rgb(0, 0, 0);
     color:white;
+    padding: 1rem;
     
 }
 .links a {
@@ -53,8 +66,8 @@ ul {
     padding-left: 20px;
 }
 h2{
-    /* background: black;
-    color: white; */
+    background: black;
+    color: white;
     text-align: center;
     
 }

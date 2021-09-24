@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(17, 17, 17);
+    background:#ffffff  ;
+    font-family:  courier;
+    
+     
+}
+    ::selection {
+    background: rgba(255, 255, 0, 0.829);
+  }
+#wrap {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.bio{
+    text-align: center;
+    letter-spacing: 5px;
+    border: black;
+    border-style:double;
+    padding: 1rem;
+}
+h1 {
+    margin: 0px;
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.links{
+    margin: 0px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color:white;
+    padding: 1rem;
+    
+    
+}
+.links a {
+    margin: 0px;
+    margin-right: 20px;
+    text-align: center;
+    color:white;
+
+}
+
+#demail{
+    text-align: center;
+    align-items: center;
+}
+
+h2{
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+
+.photos{
+    align-items: center;
+    justify-content:space-around;
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.photos-item{
+    align-items: center;
+    justify-content: center;
+    width: 960px;
+  
+}
+.photo-element{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
